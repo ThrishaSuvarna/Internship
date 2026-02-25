@@ -1,0 +1,50 @@
+
+p_heads = 1 / 2
+
+
+p_six = 1 / 6
+
+
+p_heads_and_six = p_heads * p_six
+
+print("Independent Events:")
+print("P(Heads AND 6) =", p_heads_and_six)
+print()
+
+
+red_marbles = 5
+blue_marbles = 5
+total_marbles = red_marbles + blue_marbles
+
+
+p_first_red = red_marbles / total_marbles
+
+
+p_second_red = (red_marbles - 1) / (total_marbles - 1)
+
+
+p_both_red = p_first_red * p_second_red
+
+print("Dependent Events:")
+print("P(Both marbles are Red) =", p_both_red)
+print()
+
+print("Reflection:")
+print("First draw denominator:", total_marbles)
+print("Second draw denominator:", total_marbles - 1)
+print("Reason: One marble is removed, so the sample space shrinks.")
+print()
+
+previous_word = "San"
+
+next_word_probabilities = {
+    "Francisco": 0.6,
+    "Diego": 0.3,
+    "Apple": 0.1
+}
+
+print("NLP Dependency Example:")
+print(f"Previous word: '{previous_word}'")
+print("Next word probabilities:")
+for word, prob in next_word_probabilities.items():
+    print(f"  {word}: {prob}")

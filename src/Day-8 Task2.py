@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb 10 11:57:17 2026
+
+@author: Dell
+"""
+
+import numpy as np
+
+
+data = np.arange(24)
+
+
+reshaped_data = data.reshape(4, 3, 2)
+
+
+final_data = reshaped_data.transpose(0, 2, 1)
+
+
+print("Final Shape:", final_data.shape)
+print("Final Array:\n", final_data)

@@ -1,0 +1,23 @@
+import pandas as pd
+import numpy as np
+
+np.random.seed(42)
+
+scores = np.random.normal(loc=70, scale=10, size=1000)
+
+scores = np.append(scores, [20, 120])
+
+data = pd.DataFrame({'Score': scores})
+
+mu = data['Score'].mean()
+sigma = data['Score'].std()
+
+print(f"Mean (μ): {mu:.2f}")
+print(f"Standard Deviation (σ): {sigma:.2f}")
+
+data['z_score'] = (data['Score'] - mu) / sigma
+
+outliers = data[np.abs(data['z_score']) > 3]
+
+print("\nStatistical Outliers (|Z| > 3):")
+print(outliers)
