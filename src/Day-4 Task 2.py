@@ -12,4 +12,8 @@ print("Is ID05 present?", is_id05_present)
 
 
 print("Total log entries:", len(raw_logs))
+<<<<<<< HEAD
 print("Unique visitors:", len(unique_users))
+=======
+print("Unique visitors:", len(unique_users))
+>>>>>>> f49fd9c9f786cd21697a7a890c46cae5bcfc5ce6

@@ -1,0 +1,7 @@
+file=open("sample.txt","w")
+file.write("Hello,this is a file handling example.")
+file.close()
+file=open("sample.txt","r")
+content=file.read()
+print(content)
+file.close()

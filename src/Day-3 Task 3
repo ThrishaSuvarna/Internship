@@ -5,8 +5,4 @@ screen_res = (1920, 1080)
 print(f"Current Resolution: {screen_res[0]}x{screen_res[1]}")
 
 
-<<<<<<< HEAD
 print("Tuples cannot be modified!")
-=======
-print("Tuples cannot be modified!")
->>>>>>> f49fd9c9f786cd21697a7a890c46cae5bcfc5ce6

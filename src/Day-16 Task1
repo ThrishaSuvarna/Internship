@@ -1,0 +1,41 @@
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+
+np.random.seed(42)
+heights = np.random.normal(loc=170, scale=10, size=1000)  
+incomes = np.random.exponential(scale=50000, size=1000)  
+
+scores = 100 - np.random.exponential(scale=10, size=1000)  
+scores = np.clip(scores, 0, 100)  # keep within 0-100
+data = pd.DataFrame({
+    'Heights': heights,
+    'Incomes': incomes,
+    'Scores': scores
+})
+
+plt.figure(figsize=(18,5))
+
+for i, column in enumerate(data.columns, 1):
+    plt.subplot(1, 3, i)
+    sns.histplot(data[column], kde=True, color='skyblue', bins=30)
+    plt.title(column, fontsize=14)
+    plt.xlabel(column)
+    plt.ylabel('Frequency')
+
+plt.tight_layout()
+plt.show()
+
+for column in data.columns:
+    mean_val = data[column].mean()
+    median_val = data[column].median()
+    print(f"{column} - Mean: {mean_val:.2f}, Median: {median_val:.2f}")
+    
+    if mean_val > median_val:
+        print(f"  -> Right-Skewed (Mean > Median)\n")
+    elif mean_val < median_val:
+        print(f"  -> Left-Skewed (Mean < Median)\n")
+    else:
+        print(f"  -> Approximately Normal\n")

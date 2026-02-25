@@ -57,4 +57,8 @@ A={1,2,3}
 B={3,4,5}
 print(A|B)
 print(A & B)
+<<<<<<< HEAD
 print(3 in A)
+=======
+print(3 in A)
+>>>>>>> f49fd9c9f786cd21697a7a890c46cae5bcfc5ce6
