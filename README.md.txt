@@ -180,6 +180,64 @@ This project demonstrates the creation of a local SQLite database named `interns
 
 ---
 
+# 📘 Day 17 – SQL Fundamentals (SELECT, WHERE, GROUP BY, JOIN, Python Integration)
+
+Set up your first local SQLite database and learn how to:
+- Retrieve specific data using SELECT
+- Filter records using WHERE
+- Aggregate results using GROUP BY
+- Combine tables using JOIN
+- Connect SQL with Python for analysis
+
+---
+
+# 📘 Day 19 - Git Advanced – Branching & Merge Conflict Resolution
+
+- Develop new features  
+- Fix bugs  
+- Experiment with ideas  
+- Refactor code  
+
+---
+
+# 📘 Day 20 – Mini Project 1: Exploratory Data Analysis (EDA)
+
+- Examine and understand raw datasets
+- Perform justified data cleaning and preprocessing
+- Explore patterns through statistical summaries and visualization
+- Communicate findings clearly and professionally
+
+---
+
+# 📘 Day 21 – Introduction to Machine Learning
+
+Clearly explain Machine Learning  
+✔ Differentiate ML from traditional programming  
+✔ Identify supervised vs unsupervised vs reinforcement learning  
+✔ Map real-world problems to the correct ML category  
+✔ Avoid beginner-level conceptual mistakes  
+
+---
+
+# 📘 Day 22 – Review I & Problem Statement Selection
+
+Clearly understand which ML tools apply to which problems  
+✔ Select a project aligned with their skill level  
+✔ Define a clear problem statement  
+✔ Transition confidently into independent project work
+
+---
+
+# 📘 Days 23–25 – Brainstorming & Project Deep Dive
+
+Finalized a well-scoped project idea  
+✔ Defined measurable success criteria  
+✔ Identified appropriate modeling approaches  
+✔ Designed a preliminary data flow architecture  
+✔ Aligned project ambition with realistic constraints  
+
+---
+
 # 🛠 Technologies Used
 
 - Python  
@@ -209,11 +267,18 @@ This internship provided a structured progression from programming basics to cor
 
 It strengthened analytical thinking, problem-solving ability, and readiness for real-world machine learning workflows.
 
+- Structuring and executing data analysis projects independently  
+- Cleaning and preprocessing real-world datasets  
+- Selecting suitable machine learning frameworks (Supervised, Unsupervised, etc.)  
+- Handling collaboration challenges such as branching and merge conflicts  
+- Translating technical insights into clear, professional communication
+
 ---
 
 ## 👩‍💻 Author
 Thrisha
 
 📅 February 2026
+
 
 
