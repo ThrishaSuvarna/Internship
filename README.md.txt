@@ -277,7 +277,51 @@ SVM is a powerful algorithm that works well for **high-dimensional data** and pr
 
 
 ---
+📍 Day 33 – K-Nearest Neighbors (KNN)
+- Learned the fundamentals of the KNN algorithm.
+- Understood how distance-based classification works.
+- Explored how the model predicts outcomes based on nearest data points.
+- Completed the module quiz to strengthen conceptual understanding.
 
+---
+
+📍 Day 34 – Entrepreneurship and Design Thinking
+- Gained knowledge of entrepreneurship and value creation.
+- Understood the difference between invention and innovation.
+- Learned the five stages of Design Thinking:
+- Empathize
+- Define
+- Ideate
+- Prototype
+- Test
+
+---
+
+📍 Day 36–38 – Problem Refinement and Research
+- Refined the project idea using structured research methodologies.
+- Applied the 5 Whys technique to identify root causes.
+- Developed a clear and measurable problem statement.
+- Performed stakeholder mapping.
+- Conducted both primary and secondary research.
+- Created a structured project roadmap.
+
+----
+📍 Day 39 – K-Means Clustering
+- Studied K-Means Clustering (unsupervised learning).
+- Learned how data points are grouped using centroids.
+- Implemented the algorithm using scikit-learn.
+- Used the Elbow Method to determine optimal clusters.
+- Visualized clusters and centroids for better understanding.
+
+---
+
+📍 Day 40 – Principal Component Analysis (PCA)
+- Learned dimensionality reduction using PCA.
+- Standardized the dataset before applying PCA.
+- Reduced a 13-feature dataset into fewer components.
+- Used a Scree Plot to select optimal components.
+- Visualized transformed data in 2D for variance analysis.
+ ----
 
 # 🛠 Technologies Used
 
