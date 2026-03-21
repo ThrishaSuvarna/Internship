@@ -258,6 +258,27 @@ The second project focuses on **insurance purchase prediction based on age**. Th
 
 ---
 
+📍Day 32 - Support Vector Machines (SVM)
+
+## Overview
+Today I learned about **Support Vector Machines (SVM)**, a supervised machine learning algorithm used for **classification and regression**. SVM works by finding the best **decision boundary (hyperplane)** that separates different classes in a dataset.
+
+## Key Concepts
+- **Hyperplane:** Decision boundary that separates classes.
+- **Support Vectors:** Data points closest to the hyperplane.
+- **Margin:** Distance between the hyperplane and the nearest data points.
+- **Kernel Trick:** Helps SVM handle non-linear data.
+
+## Conclusion
+SVM is a powerful algorithm that works well for **high-dimensional data** and provides strong classification performance.
+
+---
+📅 *Machine Learning Journey – Day 32*
+
+
+---
+
+
 # 🛠 Technologies Used
 
 - Python  
@@ -299,6 +320,7 @@ It strengthened analytical thinking, problem-solving ability, and readiness for 
 Thrisha
 
 📅 February 2026
+
 
 
 
